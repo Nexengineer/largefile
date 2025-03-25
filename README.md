@@ -50,3 +50,7 @@ Many tools now support loading multi-part GGUF models directly, so you might not
 Alternatives:
 You can also use other tools like 7-zip or similar to split and combine files, but gguf-split is designed specifically for GGUF files and is included in llama.cpp
 
+
+brew install llama.cpp
+
+llama-gguf-split --split-max-size 50M output_prefix--help-00002-of-00018.gguf output_prefix--help
